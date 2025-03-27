@@ -67,12 +67,12 @@ fun Start (modifier: Modifier = Modifier) {
         Row {
             RadioButton(
                 selected = gender == stringResource(R.string.male_gender),
-                onClick = { gender = context.getString(R.string.female_gender) }
+                onClick = { gender = context.getString(R.string.male_gender) }
             )
             Text(context.getString(R.string.male_gender), modifier = Modifier.padding(end = 16.dp))
 
             RadioButton(
-                selected = gender == stringResource(R.string.male_gender),
+                selected = gender == stringResource(R.string.female_gender),
                 onClick = { gender = context.getString(R.string.female_gender) }
             )
             Text(context.getString(R.string.female_gender))

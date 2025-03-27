@@ -6,7 +6,7 @@
     <string name="age_in_str_to_us_slider">Возраст: %1$s</string>
     <string name="choose_on_butt_drop_menu_country">Выбрать</string>
     <string name="choose_country_text_in_field">Выберите страну</string>
-    <string name="male_gender">Женский</string>
+    <string name="male_gender">Мужской</string>
     <string name="female_gender">Женский</string>
     <string name="gender_field">Пол:</string>
     <string name="name_str_show">Имя</string>
